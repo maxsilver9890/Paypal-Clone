@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+  
+
+body{
+
+	line-height: 1.5;
+
+	font-family: 'Poppins', sans-serif;
+
+	font-weight: 400;
+
+	overflow-x: hidden;
+
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f3f6; /* nearly white background */
+  color: #333; /* text color */
+}
+
+nav ul  {
+  color:#051161;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 180px;
+  display: flex;
+  justify-content: center; /* Center the nav links */
+  width: 100%; /* Add this line to make the nav links take up the full width */
+}
+
+.nav_links {
+  display: flex;
+  justify-content: center; /* Removed this line since we're centering the nav links in the nav ul */
+}
+
+.nav_links a {
+  margin-right: 20px;
+}
+
+.navanks a:last-child {
+  margin-right: 0;
+}
+
+.nav_links a  {
+  text-decoration: none;
+  color: #333; /* link color */
+}
+
+.auth_links {
+  display: flex;
+  justify-content: center;
+}
+.auth_links a{
+  list-style-type: none;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #051161;
+  margin-top: 20px;
+ 
+}
+.auth_links :hover{
+  font-weight: bolder;
+  border-color: #000000;
+
+}
+.auth_links ul  {
+  color:#06157a;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 180px;
+  display: flex;
+  justify-content: center; /* Center the nav links */
+  width: 100%; /* Add this line to make the nav links take up the full width */
+}
+
+.auth_links button {
+  margin-left: 15px; /* add spacing between buttons */
+  padding: 15px 30px; /* add padding to buttons */
+  background-color: #001262; /* button background color */
+  color: #ffffff; /* button text color */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.nav_links :hover{
+  color: #010458;
+  font-weight: bolder;
+}
+
+.lastright{
+  margin-right: 20%;
+}
+
+
+
+/* styles.css */
+.secondtop{
+  text-align: center;
+  font-size: 200%;
+  padding-left: 600px;
+  padding-right: 700px;
+  
+}
+.secondtoph{
+  font-size:large;
+  
+
+}
+.secondtop h2{
+  font-weight: bolder;
+}
+.secondtopt{
+  font-weight: bolder;
+  font-size: 200%;
+}
+.topbuttons {
+
+  padding: 10px 25px 15px;
+  display: inline-block;
+  background-color:darkblue;
+  color: white; /* Button text color */
+    
+    /* Add padding to button */
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  font-size: 1.5rem;
+  font-weight: bolder;
+  }
+  .topbuttons:hover {
+    background-color: #2554cc; /* Darker background color on hover */
+  }
+
+
+
+.secondimage {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the container vertically */
+}
+
+.secondimage img {
+  border-radius: 40px;
+  width: 1100px; /* Adjust the width of the image */
+  display: block;
+}
+
+
+.addcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Full viewport height */
+  background-color: #1d5fd1; /* Grey background */
+}
+.addcontents {
+  padding: 20px; 
+  max-width: 1280px; /* Maximum width of the content */
+  width: 100%;
+  display: flex;
+}
+.addimage {
+  flex: 0 0 620px; /* Image width */
+}
+.addimage img {
+
+border-radius: 40px;
+  width: 100%; /* Ensure image fills its container */
+ 
+}
+.addtext {
+  color: #ffffff;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 20px;
+  flex: 1; /* Take up remaining space */
+  padding: 0 150px; /* Add spacing around text */
+  font-size: x-large;
+  
+  
+}
+.addtext h2 {
+  color: #ffffff; /* Dark text color */
+  margin-top: 0; /* Remove default margin */
+}
+.addtext p {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /* Slightly lighter text color */
+  margin-bottom: 20px; /* Add space between paragraphs */
+}
+.addbuttons {
+padding: 5px 10px 10px;
+  
+  display: inline-block;
+  background-color:rgb(255, 255, 255);
+  color: rgb(8, 51, 167); /* Button text color */
+  
+  /* Add padding to button */
+  border-radius: 45px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+.addbuttons:hover {
+  color: #ffffff;
+  background-color: #040287f0; /* Darker background color on hover */
+}
+.addcardd{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.watchitgrow{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #ffffff;
+  
+}
+.watchitgrow p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: smaller;
+}
+.contents{
+  
+  padding: 20px;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+}
+.watchimage{
+  flex: 0 0 620px;
+}
+.watchimage img{
+  border-radius: 40px;
+  width: 100%;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Full viewport height */
+  background-color: #f2f2f2; /* Grey background */
+}
+.contents {
+  padding: 20px; 
+  max-width: 1280px; /* Maximum width of the content */
+  width: 100%;
+  display: flex;
+}
+.image {
+  flex: 0 0 620px; /* Image width */
+}
+.image img {
+
+border-radius: 40px;
+  width: 100%; /* Ensure image fills its container */
+ 
+}
+.text {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 200px;
+  flex: 1; /* Take up remaining space */
+  padding: 0 120px; /* Add spacing around text */
+  font-size: x-large;
+  
+  
+}
+.text h2 {
+  color: #0a0000; /* Dark text color */
+  margin-top: 0; /* Remove default margin */
+}
+.text p {
+  font-family: Arial, Helvetica, sans-serif;
+   /* Slightly lighter text color */
+  margin-bottom: 20px; /* Add space between paragraphs */
+}
+.buttons {
+padding: 5px 10px 10px;
+
+  display: inline-block;
+  background-color:darkblue;
+  color: white; /* Button text color */
+  
+  /* Add padding to button */
+  border-radius: 45px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+.buttons:hover {
+  background-color: #2554cc; /* Darker background color on hover */
+}
+.payit{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+}
+.moneyhub{
+  background-color: #ffffff;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 25%;
+  font-size:xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.restall{
+  color: #051161;
+}
+.restalll{
+  text-align: center;
+  color: #051161;
+
+  
+
+  
+}
+.moneybutton {
+  
+  text-align: center;
+  
+}
+
+.d {
+  padding: 10px 20px; /* Adjust padding for button size */
+  margin: 10px; /* Add margin for spacing between buttons */
+  font-size: 25px; /* Adjust font size */
+  background-color: transparent; /* Make the button transparent */
+  color: #050e5b; /* Set text color */
+  border: px solid #050e5b; /* Add border for button outline */
+}
+.d a{
+  color: #050e5b;
+}
+.explore{
+  text-align: center;
+ 
+  font-size:x-large;
+}
+.exploreparagraph{
+  font-size: smaller;
+  margin-left: 28%;
+  margin-right: 28%;
+
+}
+.articles img{
+  
+  width: 500px;
+
+
+}
+
+  
+
+
+
+
+
+
+footer {
+  
+  background-color: #030b3c;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-content {
+  font-weight: 500;
+  margin-top: 70px;
+  padding-left: 20%;
+  padding-right: 25%;
+  text-align: left;
+  margin-bottom: 50px;
+  
+}
+
+.footer-content ol.tc li {
+  margin-bottom: 15px; /* Adjust the margin bottom as needed */
+}
+
+.purp {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#fff {
+  padding-left: 15%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  text-align: left;
+}
+
+.underline-on-hover {
+  text-decoration: none; /* Remove default underline */
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.underline-on-hover1 {
+  text-decoration: none; /* Remove default underline */
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.container {
+  display: flex;
+  justify-content:right /* Align items to the end (right) of the container */
+  
+}
+
+.flag img {
+  background-color: #030b3c;
+  width: 30px; /* Adjust the flag width */
+  /* Adjust alignment of the image itself */
+  align-self: center; /* Align the image vertically centered within its container */
+  padding-right: 350px;
+  
+  
+
+}
+
+
+.footlogo {
+  padding-left: 1.5%;
+  padding-bottom: 2.5%;
+}
+.navbarbottom {
+  margin-bottom: 30px;
+  font-size: medium;
+  background-color: #030b3c;
+  overflow: hidden;
+}
+
+.navbarbottom a {
+  color: rgb(255, 255, 255);
+ 
+  padding: 0 15px; /* Adjust horizontal padding */
+}
+.navbarbottom ul{
+  padding-left: 0%;
+}
+.navbarbottom a:hover {
+  text-decoration: underline;
+}
+
+.line {
+  padding-right: 20%;
+  margin-bottom: 20px;
+}
+
+
+.container1 {
+  display: flex;
+  font-size: medium;
+  margin-bottom: 30px;
+  
+}
+
+.column {
+  list-style-type: none;
+  margin: 0;
+  
+}
+.column a{
+  color: #ffffff;
+  
+  padding: 0 15px; 
+  
+}
+.column + .column {
+  margin-left: 200px; /* Adjust the space between columns as needed */
+}
